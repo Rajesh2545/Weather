@@ -1,0 +1,47 @@
+body{
+  background-image: url("Images/background.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+div h2{
+  text-align: center;
+  background: linear-gradient(blue	, white);
+  box-shadow: 5px 5px 20px 0 black;
+  /* font-family: 'lobsster', cursive; */
+  font-family: 'verdana', cursive,;
+  text-shadow: 3px 3px 3px yellow;
+  font-size: 5vw;
+  /* position: static; */
+  margin:auto;
+  margin-right:
+  width: 80vw;
+  animation:spin 1s;
+}
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+.cardview{
+  /* background-image: */
+  border-radius: 2px;
+  box-shadow: 0 5px 8px 0 black;
+  padding: 10px 10px 10px 20px;
+  transition: .2s;
+  margin: 5%;
+  transform: rotate(-5deg);
+  /* transform: rotate3d(2, 5, 2, 1turn); */
+}
+.cardview:hover{
+  box-shadow: 0 8px 16px 0 black;
+  transform: rotate(0deg);
+}
+
+.temp,.rainfall,.humidity img{
+  width: 5%;
+  height: 5%;
+}
+.data{
+  display: flex;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
+}
