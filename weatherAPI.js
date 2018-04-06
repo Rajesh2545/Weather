@@ -78,7 +78,7 @@ if(main==final_date){
 	weather.classList.add("weather");
 	weatherdetails.appendChild(weather);
 	var temp=document.createElement("div");
-	temp.classList.add("temp");
+	// temp.classList.add("temp");
 	temp.textContent="Temp :"+list[i].main.temp;
 	weatherdetails.appendChild(temp);
 	var cloud=document.createElement("div");
